@@ -22,19 +22,21 @@ To get started with the Non-Technical Interview Prep Quiz, simply clone this rep
 * Flask
 * Basic knowledge of web applications
 
-### Installation 💾
+### Installation and Running  💾 🏃‍♀️
 * Clone the repository:
 ```
 sh
 copy code
 git clone https://github.com/your-username/non-technical-interview-prep.git
 ```
-### Install the required packages:
+* Install the required packages:
 ```
 sh
 Copy code
 pip install flask
-Run the application:
+```
+* Run the application:
+```
 sh
 Copy code
 python app.py
