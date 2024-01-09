@@ -1,18 +1,33 @@
 body {
     font-family: 'Georgia', sans-serif;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    background-color: #070707;
     margin: 0;
     padding: 20px;
-    color: #333;
+    /* color: #333; */
+    color: #75627c;
     line-height: 1.6;
+    background-image: url("images/background.png");
+    background-size:auto;
+    
 }
 
 h1 {
-    color: #333;
+    /* color: #333; */
+    color: #93afb0;
+    text-shadow: 2px 2px 5px #070707;
+    font-family: "Lucida Sans Typewriter"
 }
 
 p {
     font-size: 1.1em;
+    text-shadow: 2px 2px 5px #070707;
+}
+h4 {
+    /* font-size: 1.1em; */
+    font-style: italic;
+    line-height: 1.6;
+   
 }
 
 /* Button Styling (if you add a button) */
@@ -29,10 +44,12 @@ button {
     margin: 10px auto; /* Center the button horizontally */
     width: auto; /* Adjust the width as needed */
     text-align: center;
+    border-radius: 20px;
 }
 
 .button-container{
     text-align: center;
+    border-radius: 20px;
 }
 
 button:hover {
@@ -44,6 +61,7 @@ button:hover {
 .question {
     background-color: white;
     border: 1px solid #ddd;
+    border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
@@ -53,6 +71,7 @@ button:hover {
 .answer {
     background-color: white;
     border: 1px solid #ddd;
+    border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
@@ -76,6 +95,36 @@ textarea {
     margin: auto;
     overflow: hidden;
 }
+
+/* .background-image{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    /* display: inline-block; */
+    /* float:left;
+  } */
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Align items to each side */
+    align-items: center; /* Align items vertically */
+}
+
+.left-image, .right-image {
+    /* Remove float and adjust width as needed */
+    width: 150px; /* Example width, adjust as needed */
+    /* Other styles remain the same */
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 
 @media screen and (max-width: 700px) {
     .container {

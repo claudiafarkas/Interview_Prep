@@ -5,13 +5,16 @@
         <link rel="stylesheet" type="text/css" href="static/styles.css">
     </head>
     <body>
+         <!-- <div class="background-image" >
+            <img src= "{{url_for('static', filename= 'images/background.png')}}">
+        </div> -->
         <div class="container">
             <h1>Ready To Quiz Yourself? </h1>
-            <p>Below are non-technical interview preperation questions, once you click the 'Submit & Get Next Question' button one will appear. Good luck!</p>
+            <p>Welcome to the Non-Technical Interview Prep Quiz, an interactive and fun way to practice for your upcoming behavioral interviews! This tool is designed to help you prepare for the non-technical aspects of job interviews, which are just as crucial as the technical ones. Enjoy and have fun!</p>
             
             <form method="post">
                 <div class="question">
-                    <p>{{ chosen_row }}</p>
+                    <h4>{{ chosen_row }}</h4>
                     <input type="hidden" name="question" value="{{ chosen_row }}">
                 </div>
                 <div class="answer">
@@ -26,5 +29,6 @@
         <!-- <div class="button-container">
             <button type="button" onclick="alert('Hello world!')">Click Me!</button> 
         </div> -->
+        
     </body>
 </html>
