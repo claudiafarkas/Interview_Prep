@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Non-Technical Questions</title>
+        <link rel="stylesheet" type="text/css" href="static/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Ready To Quiz Yourself? </h1>
+            <p>Below are non-technical interview preperation questions, once you click the 'Submit & Get Next Question' button one will appear. Good luck!</p>
+            
+            <form method="post">
+                <div class="question">
+                    <p>{{ chosen_row }}</p>
+                    <input type="hidden" name="question" value="{{ chosen_row }}">
+                </div>
+                <div class="answer">
+                    <textarea id="answer" name="answer" rows="5" cols="50">Type your answer here!</textarea>
+                    <br><br>
+                </div>
+
+                <button type="submit" name="action" value="submit_answer">Submit & Get Next Question</button>
+                <button type="submit" name="action" value="download_answers" download_answers>Download Previous Questions & Answers</button>
+            </form>
+        </div>
+        <!-- <div class="button-container">
+            <button type="button" onclick="alert('Hello world!')">Click Me!</button> 
+        </div> -->
+    </body>
+</html>
