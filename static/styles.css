@@ -7,38 +7,46 @@ body {
     /* color: #333; */
     color: #75627c;
     line-height: 1.6;
-    background-image: url("images/background.png");
-    background-size:auto;
-    
+    background-image: url("images/background.jpg");
+    background-size:contain;
+    /* background-image: radial-gradient(ellipse at center, transparent 100%, black 10%); */
 }
 
 h1 {
     /* color: #333; */
     color: #93afb0;
-    text-shadow: 2px 2px 5px #070707;
-    font-family: "Lucida Sans Typewriter"
+    text-shadow: 20px 20px 30px #070707;
+    font-family:Courier, monospace;
+    font-size: 26px; 
+    font-weight:bolder;
 }
 
-p {
-    font-size: 1.1em;
-    text-shadow: 2px 2px 5px #070707;
+.container, p {
+    font-size: 17px;
+    text-shadow: 20px 20px 50px #070707;
+    color: #e0cff3;
 }
-h4 {
+
+.question, h4 {
     /* font-size: 1.1em; */
     font-style: italic;
     line-height: 1.6;
-   
+    font-family: "Consolas";
+    font-size: 17px; 
+    color: #75627c;
 }
 
 /* Button Styling (if you add a button) */
 button {
-    font-family: 'Georgia', sans-serif;
+    /* font-family: 'Georgia', sans-serif; */
+    font-family:Courier, monospace;
     font-style: oblique;
     font-weight: bold;
     background-color: #75627c;
     color: #e0cff3;
     padding: 10px 20px;
-    /* border: none; */
+    border: black;
+    border-color: #93afb0;
     cursor: pointer;
     display: inline-block;
     margin: 10px auto; /* Center the button horizontally */
@@ -57,7 +65,6 @@ button:hover {
     color: #d5c0ec
 }
 
-/* Question Display Styling */
 .question {
     background-color: white;
     border: 1px solid #ddd;
@@ -89,33 +96,20 @@ textarea {
     resize: none;
   }
 
-/* Responsive Container */
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-/* .background-image{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    /* display: inline-block; */
-    /* float:left;
-  } */
-
-
 .flex-container {
     display: flex;
-    justify-content: space-between; /* Align items to each side */
-    align-items: center; /* Align items vertically */
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .left-image, .right-image {
-    /* Remove float and adjust width as needed */
-    width: 150px; /* Example width, adjust as needed */
-    /* Other styles remain the same */
+    width: 150px;
 }
 
 .clearfix::after {
