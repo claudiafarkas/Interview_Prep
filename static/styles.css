@@ -1,19 +1,15 @@
 body {
     font-family: 'Georgia', sans-serif;
-    /* background-color: #f4f4f4; */
     background-color: #070707;
     margin: 0;
     padding: 20px;
-    /* color: #333; */
     color: #75627c;
     line-height: 1.6;
     background-image: url("images/background.jpg");
     background-size:contain;
-    /* background-image: radial-gradient(ellipse at center, transparent 100%, black 10%); */
 }
 
 h1 {
-    /* color: #333; */
     color: #93afb0;
     text-shadow: 20px 20px 30px #070707;
     font-family:Courier, monospace;
@@ -28,7 +24,6 @@ h1 {
 }
 
 .question, h4 {
-    /* font-size: 1.1em; */
     font-style: italic;
     line-height: 1.6;
     font-family: "Consolas";
@@ -36,9 +31,7 @@ h1 {
     color: #75627c;
 }
 
-/* Button Styling (if you add a button) */
 button {
-    /* font-family: 'Georgia', sans-serif; */
     font-family:Courier, monospace;
     font-style: oblique;
     font-weight: bold;
@@ -49,8 +42,8 @@ button {
     border-color: #93afb0;
     cursor: pointer;
     display: inline-block;
-    margin: 10px auto; /* Center the button horizontally */
-    width: auto; /* Adjust the width as needed */
+    margin: 10px auto;
+    width: auto;
     text-align: center;
     border-radius: 20px;
 }
@@ -117,7 +110,6 @@ textarea {
     clear: both;
     display: table;
 }
-
 
 
 @media screen and (max-width: 700px) {

@@ -8,5 +8,3 @@ def get_questions():
 
     print(chosen_row)
     return chosen_row
-
-# def get_saved_qa():

@@ -26,10 +26,6 @@ def index():
             return send_file('saved_questions_and_answers.csv', as_attachment=True)
     else:
         chosen_row=get_questions()
-        # chosen_row = "click the button to get a question"
-        # my_variable = "Welcome!"
-        # chosen_row = get_questions()
-        # print("CHOSEN ROW:", chosen_row)
         return render_template('non_technical_questions.html', chosen_row=chosen_row)
 
 if __name__ == '__main__':
