@@ -2,7 +2,7 @@
 # When someone accesses the root URL ('/'), it will serve an HTML file named non_technical_questions.html.
 from flask import Flask, render_template, request, send_file
 import csv
-from non_technical_questions_random import get_questions  # Importing from your script
+from non_technical_questions_random import get_questions 
 
 
 app = Flask(__name__)
