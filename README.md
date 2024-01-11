@@ -52,4 +52,6 @@ Distributed under the MIT License. See LICENSE for more information.
 * Claudia Farkas - claudia.farkas@outlook.com
 * LinkedIn - https://www.linkedin.com/in/claudia-farkas/ 
 
-### Project Link: https://github.com/your-username/non-technical-interview-prep
+### Project Link: 
+* https://github.com/your-username/non-technical-interview-prep
+* https://vercel.com/claudias-projects-c1d7878e/interview-prep
