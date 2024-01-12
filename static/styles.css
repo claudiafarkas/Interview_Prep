@@ -5,8 +5,8 @@ body {
     padding: 20px;
     color: #75627c;
     line-height: 1.6;
-    background-image: url("images/background_2.png");
-    background-size:contain;
+    background-image: url("images/background_8.jpg");
+    background-size:cover;
 }
 
 h1 {
@@ -37,6 +37,15 @@ p {
     color: #75627c;
 }
 
+h5{
+    color: #93afb0;
+    font-size: 8px;
+    text-align: right;
+    bottom: 0%;
+    position: fixed;
+    opacity: 0.5;
+}
+
 button {
     font-family:Courier, monospace;
     font-style: oblique;
@@ -61,7 +70,7 @@ button {
 
 button:hover {
     background-color: #67506f;
-    color: #d5c0ec
+    color: #93afb0
 }
 
 .question {
