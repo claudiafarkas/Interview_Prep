@@ -5,22 +5,28 @@ body {
     padding: 20px;
     color: #75627c;
     line-height: 1.6;
-    background-image: url("images/background.jpg");
+    background-image: url("images/background_2.png");
     background-size:contain;
 }
 
 h1 {
     color: #93afb0;
     text-shadow: 20px 20px 30px #070707;
-    font-family:Courier, monospace;
-    font-size: 26px; 
-    font-weight:bolder;
+    /* font-family:Courier, monospace; */
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 30px; 
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+    font-style: italic;
+    /* font-weight:bolder; */
 }
 
-.container, p {
-    font-size: 17px;
+p {
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     text-shadow: 20px 20px 50px #070707;
     color: #e0cff3;
+    line-height: 1.6;
 }
 
 .question, h4 {
